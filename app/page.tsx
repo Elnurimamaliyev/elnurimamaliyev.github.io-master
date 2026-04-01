@@ -30,8 +30,18 @@ export default function Home() {
       <main className="max-w-2xl mx-auto px-6 py-16">
         {/* Bio Section */}
         <section className="mb-12">
-          <div className="flex flex-col-reverse md:flex-row gap-8 items-start mb-8">
-            <div className="flex-1">
+          <div className="flex flex-col mb-8 gap-6 md:gap-8 items-center md:items-start md:flex-row">
+            <div className="shrink-0 w-48 h-48 md:w-64 md:h-64 relative rounded-3xl overflow-hidden border-[6px] border-gray-100 dark:border-gray-800 shadow-xl bg-gray-200">
+              <Image 
+                src="/images/profile.png" 
+                alt="Elnur Imamaliyev" 
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+            
+            <div className="flex-1 w-full">
               <h1 className="text-4xl font-bold text-black dark:text-white mb-2">
                 Elnur Imamaliyev <span className="text-lg font-normal text-gray-500">(He/Him)</span>
               </h1>
@@ -62,16 +72,6 @@ export default function Home() {
               <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
                 You can find all my projects on my <a href="https://github.com/Elnurimamaliyev" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-semibold">GitHub</a> along with the open-source code for replication.
               </p>
-            </div>
-            
-            <div className="shrink-0 w-48 h-48 md:w-64 md:h-64 relative rounded-full overflow-hidden border-[6px] border-gray-100 dark:border-gray-800 shadow-xl mx-auto md:mx-0 mt-4 md:mt-2 bg-gray-200">
-              <Image 
-                src="/images/profile.png" 
-                alt="Elnur Imamaliyev" 
-                fill
-                className="object-cover"
-                priority
-              />
             </div>
           </div>
         </section>
