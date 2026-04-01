@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -29,21 +30,50 @@ export default function Home() {
       <main className="max-w-2xl mx-auto px-6 py-16">
         {/* Bio Section */}
         <section className="mb-12">
-          <h1 className="text-4xl font-bold text-black dark:text-white mb-6">
-            Elnur Imamaliyev
-          </h1>
-          
-          <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-            I recently finished my master's in computational neuroscience with an interdisciplinary background in cognitive modeling and machine learning. I did my master's thesis in HCI; more specifically, I developed an XR user study in Unity-3D (C#), used the LSL framework for multimodal physiological data collection (eye-tracker and EEG) to understand the Stimulus Preceding Negativity pattern as an implicit trigger for adaptive mixed reality.
-          </p>
+          <div className="flex flex-col-reverse md:flex-row gap-8 items-start mb-8">
+            <div className="flex-1">
+              <h1 className="text-4xl font-bold text-black dark:text-white mb-2">
+                Elnur Imamaliyev <span className="text-lg font-normal text-gray-500">(He/Him)</span>
+              </h1>
+              <p className="text-lg text-gray-600 dark:text-gray-400 mb-6 font-medium">
+                Postgrad. HCI and NeuroAI Researcher
+              </p>
+              
+              <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+                I am a postgraduate researcher currently looking for a PhD to continue my research. My prior research covers HCI, XR, and ML fields, with a focus on human augmentation and intelligent systems. Feel free to DM me. 
+              </p>
 
-          <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-            I have graduated from Computational Neuroscience, and I want to do my Ph.D in wearables as well as psychological sensing.
-          </p>
+              <h2 className="text-xl font-semibold text-black dark:text-white mt-8 mb-3">
+                Research Interest
+              </h2>
+              
+              <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+                I am an HCI researcher with an MSc degree in Computational Neuroscience and am highly skilled in programming with Python, MATLAB, and C#, which gives me a unique research edge. I previously focused intensely on BCI, XR systems, and now, I am transitioning to the broader HCI, AI/ML fields to apply my knowledge of cognitive systems and physiological sensing to human augmentation.
+              </p>
 
-          <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-            Feel free to reach out to me via email or connect with me on LinkedIn if you would like to know more about me or my work.
-          </p>
+              <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+                I co-authored an ACM CHI 2026 main conference paper based on an extension of my master's thesis prototype — <Link href="/projects" className="text-blue-600 dark:text-blue-400 hover:underline">NeurodaptiXR</Link> — using physiological responses (eye-tracker + EEG) designed to mitigate the Midas touch problem in Mixed Reality with "neural clicking" using slow anticipatory cortical potentials (SPNs).
+              </p>
+
+              <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+                If you are interested in my earlier cognitive modeling work, please check out the <Link href="/projects" className="text-blue-600 dark:text-blue-400 hover:underline">AMBI4NS</Link> project (poster at Munich Brain Day 2025) and the <Link href="/projects" className="text-blue-600 dark:text-blue-400 hover:underline">COUPLECCINO</Link> project (poster at Interdisciplinary College (IK), 2025).
+              </p>
+
+              <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
+                You can find all my projects on my <a href="https://github.com/Elnurimamaliyev" target="_blank" rel="noopener noreferrer" className="text-blue-600 dark:text-blue-400 hover:underline font-semibold">GitHub</a> along with the open-source code for replication.
+              </p>
+            </div>
+            
+            <div className="shrink-0 w-48 h-48 md:w-64 md:h-64 relative rounded-full overflow-hidden border-[6px] border-gray-100 dark:border-gray-800 shadow-xl mx-auto md:mx-0 mt-4 md:mt-2 bg-gray-200">
+              <Image 
+                src="/images/profile.png" 
+                alt="Elnur Imamaliyev" 
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
         </section>
 
         {/* Contact & Social Links */}
