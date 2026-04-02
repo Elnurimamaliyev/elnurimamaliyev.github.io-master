@@ -24,7 +24,7 @@ export default function Projects() {
       tags: ["Python", "Llama-3.1", "MinerU", "RAG", "LLM", "GenAI"],
       date: "Jan. 2026 – Feb. 2026",
       github: "https://github.com/Elnurimamaliyev/SentryLlama",
-      image: null
+      image: "/images/sentryllama.png"
     },
     {
       title: "NoApplAI - Application Automatization",
@@ -40,7 +40,7 @@ export default function Projects() {
       tags: ["GenAI", "GAN", "PsychoPy", "EEG", "Gaze", "Human-in-the-loop"],
       date: "Jan. 2025 – May. 2025",
       github: "https://github.com/Elnurimamaliyev/GenAI-Image-Enhancement",
-      image: null
+      image: "/images/genai_hitl.png"
     },
     {
       title: "AMBI4NS - Multivariate Amplitude-Binned TRF",
@@ -97,11 +97,11 @@ export default function Projects() {
           {projects.map((project, index) => (
             <article key={index} className="border-b border-gray-200 dark:border-gray-800 pb-8 last:border-0">
               {project.image && (
-                <div className="mb-4 rounded-lg overflow-hidden h-48 bg-gray-200 dark:bg-gray-800">
+                <div className="mb-6 rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-800 flex items-center justify-center" style={{ maxHeight: "600px" }}>
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto object-contain"
                   />
                 </div>
               )}
