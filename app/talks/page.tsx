@@ -9,11 +9,11 @@ export default function Talks() {
 
   const talks = [
     {
-      title: "Beyond Univariate Envelope Modeling: EEG Response Prediction with the Multivariate Amplitude-Binned TRF Model",
+      title: "Beyond Univariate Envelope Brain Modeling: Increasing EEG response accuracy with the multivariate Amplitude-Binned TRF model",
       event: "Munich Brain Day 2025",
       type: "Poster",
       status: "Past",
-      date: "2025",
+      date: "May 2025",
       authors: "Imamaliyev, E., Bleichner, M.",
       doi: "10.13140/RG.2.2.31742.65602",
       link: "https://github.com/Elnurimamaliyev/AMBI4NS",
@@ -22,11 +22,11 @@ export default function Talks() {
       image: "/images/talks/amb4ns_talk.png"
     },
     {
-      title: "The Coupleccino Model - Computational Modeling of the Effects of Caffeine on Electrically Coupled Neurons",
+      title: "The Coupleccino Model - Computational Modeling of the Effects of Caffeine on Electrically Coupled Retzius Cells using Hodgkin-Huxley Neuron model",
       event: "Interdisciplinary College (IK) 2025",
       type: "Poster",
       status: "Past",
-      date: "2025",
+      date: "July 2024",
       authors: "Imamaliyev, E., Duken, M.",
       doi: "10.13140/RG.2.2.11609.99687",
       link: "https://github.com/Elnurimamaliyev/Coupleccino-HH-Model",
@@ -141,7 +141,7 @@ export default function Talks() {
                   {talk.doi && (
                     <div>
                       <a
-                        href={`https://doi.org/${talk.doi.replace('10.13140/', '')}`}
+                        href={`https://doi.org/${talk.doi}`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-700 dark:hover:text-blue-300 hover:underline text-sm font-medium transition"
