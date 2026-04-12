@@ -32,7 +32,7 @@ export default function Projects() {
       title: "SentryLlama - RAG-based Local LLM Augmentation",
       description: "Evaluated local LLM performance via comparative RAG and hardware-aware pipelines, integrating the security-tuned Llama-3.1 reasoning model with MinerU for computer vision-based multimodal context extraction.",
       tags: ["Python", "Llama-3.1", "MinerU", "RAG", "LLM", "GenAI"],
-      category: "Industry",
+      category: "Academic",
       status: "Completed",
       date: "Jan. 2026 – Feb. 2026",
       github: "https://github.com/Elnurimamaliyev/SentryLlama",
