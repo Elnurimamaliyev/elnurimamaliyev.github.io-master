@@ -47,7 +47,7 @@ export default function SignLanguageAI() {
           </div>
 
           <h1 className="text-3xl md:text-4xl font-bold text-black dark:text-white mb-4 leading-tight">
-            Multimodal AI & Vision World Models for Sign Language
+            Multimodal AI for Sign Language
           </h1>
           
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-gray-500 text-sm mb-12">
@@ -75,17 +75,17 @@ export default function SignLanguageAI() {
           </p>
 
           <p className="mb-6">
-            On the <strong>ADHD</strong> side, large language models (LLMs) and NLP methods analyse conversation management — turn-taking, topic coherence, and discourse structure — as computational markers of attentional profiles in multilingual speech.
+            On the <strong>Neurodiversity</strong> side, large language models (LLMs) and NLP methods analyse conversation management — turn-taking, topic coherence, and discourse structure — as computational markers of attentional profiles in multilingual speech.
           </p>
 
           <h3 className="text-xl font-semibold text-black dark:text-white mb-4 mt-8">Research Strands</h3>
           
-          <h4 className="text-lg font-medium text-black dark:text-white mb-2 mt-6">Strand 1 — Vision World Models for Sign Language</h4>
+          <h4 className="text-lg font-medium text-black dark:text-white mb-2 mt-6">Strand 1 — World Models for Sign Language</h4>
           <p className="mb-4">
             Austrian Sign Language (ÖGS) is a complete natural language expressed entirely in the visual-spatial modality. Despite this, ÖGS — like most sign languages worldwide — remains almost entirely absent from current AI training data and model architectures.
           </p>
           <p className="mb-4">
-            This strand applies self-supervised vision world models, specifically JEPA-style (Joint Embedding Predictive Architecture) approaches, to motion capture and surface EMG recordings of fluent Deaf ÖGS signers. Rather than reconstructing raw sensor input, the model learns to predict in a structured latent space — capturing the kinematic regularities that encode grammatical and semantic information in signing.
+            This strand applies self-supervised world models, specifically JEPA-style (Joint Embedding Predictive Architecture) approaches, to motion capture and surface EMG recordings of fluent Deaf ÖGS signers. Rather than reconstructing raw sensor input, the model learns to predict in a structured latent space — capturing the kinematic regularities that encode grammatical and semantic information in signing.
           </p>
           <p className="mb-6">
             The goal is to learn representations of sign language production that go beyond traditional hand-crafted kinematic features — revealing how grammatical structures like telicity, intensification, and agreement are encoded in the dynamics of movement itself. This creates a foundation for downstream tasks: sign language recognition, generation, and ultimately real-time interaction in extended reality environments.
@@ -112,7 +112,7 @@ export default function SignLanguageAI() {
           </p>
 
           <div className="flex flex-wrap gap-2 mt-8">
-            {["Multimodal AI", "Vision World Models", "JEPA", "Sign Language", "ÖGS", "Motion Capture", "EMG", "LLMs", "NLP", "ADHD", "Multilingualism", "Computational Linguistics"].map((tag) => (
+            {["Multimodal AI", "World Models", "JEPA", "Sign Language", "ÖGS", "Motion Capture", "EMG", "LLMs", "NLP", "ADHD", "Multilingualism", "Computational Linguistics"].map((tag) => (
               <span key={tag} className="px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 text-xs rounded-full font-medium">
                 {tag}
               </span>

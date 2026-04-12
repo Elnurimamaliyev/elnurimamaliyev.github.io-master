@@ -9,9 +9,9 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "Multimodal AI & World Models for Sign Language: What Does Language Look Like Without Sound, Text, or Full Attention?",
-      description: "How does language work without standard sound or text? This project uses self-supervised vision world models (JEPA) on motion capture/EMG from Austrian Sign Language (ÖGS) and LLM analysis of neurodivergent speech to build modality-agnostic, embodied computational models of human communication.",
-      tags: ["Multimodal AI", "Vision World Models", "JEPA", "Sign Language", "ÖGS", "Motion Capture", "EMG", "LLMs", "NLP", "Computational Linguistics"],
+      title: "Multimodal AI for Sign Language",
+      description: "What Does Language Look Like Without Sound, Text, or Full Attention? This project uses self-supervised vision world models (JEPA) on motion capture/EMG from Austrian Sign Language (ÖGS) and LLM analysis of neurodivergent speech to build modality-agnostic, embodied computational models of human communication.",
+      tags: ["Multimodal AI", "World Models", "JEPA", "Sign Language", "ÖGS", "Motion Capture", "EMG", "LLMs", "NLP", "Computational Linguistics"],
       category: "Academic",
       status: "Upcoming",
       date: "Apr. 2026 – Present",
