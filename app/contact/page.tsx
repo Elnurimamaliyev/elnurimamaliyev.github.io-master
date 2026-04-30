@@ -22,6 +22,12 @@ export default function Contact() {
               <Link href="/talks" className="hover:text-gray-600 dark:hover:text-gray-400 transition">
                 Talks
               </Link>
+              <Link href="/teaching" className="hover:text-gray-600 dark:hover:text-gray-400 transition">
+                Teaching
+              </Link>
+              <Link href="/pyweek/en" className="hover:text-gray-600 dark:hover:text-gray-400 transition">
+                PyWeek
+              </Link>
               <Link href="/contact" className="hover:text-gray-600 dark:hover:text-gray-400 transition font-medium">
                 Contact
               </Link>
