@@ -107,6 +107,14 @@ export default function Day0Az() {
                   <span className="text-2xl mt-1">6️⃣</span>
                   <span><strong>Virtual mühiti aktivləşdirin:</strong> <code className="text-sm bg-gray-900 text-green-400 px-2 py-1 rounded">source pyweek_env/bin/activate</code> (macOS/Linux) və ya <code className="text-sm bg-gray-900 text-green-400 px-2 py-1 rounded">pyweek_env\Scripts\activate</code> (Windows)</span>
                 </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl mt-1">7️⃣</span>
+                  <span><strong>pip-i yenilə:</strong> <code className="text-sm bg-gray-900 text-green-400 px-2 py-1 rounded">pip install --upgrade pip</code></span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-2xl mt-1">8️⃣</span>
+                  <span><strong>Paketləri quraşdır:</strong> <code className="text-sm bg-gray-900 text-green-400 px-2 py-1 rounded">pip install numpy pandas matplotlib scipy jupyter</code></span>
+                </li>
               </ul>
             </section>
 
