@@ -37,7 +37,7 @@ export default function Day0Az() {
               Gün 0
             </h1>
             <p className="text-3xl text-gray-600 dark:text-gray-400 font-medium mb-2">
-              Mühit Quraşdırması və Quraşdırma
+              Mühit Quraşdırması və yükləmələr
             </p>
             <p className="text-xl text-gray-500 dark:text-gray-400">
               4 May 2026-dan əvvəl · 1–2 saat
