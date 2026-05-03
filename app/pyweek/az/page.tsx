@@ -230,6 +230,25 @@ export default function PyWeekAz() {
           </div>
         </section>
 
+        {/* Resources */}
+        <section className="mb-16">
+          <h2 className="text-2xl font-bold text-black dark:text-white mb-8 border-b border-gray-200 dark:border-gray-800 pb-4">
+            📥 Mənbələr & Yükləmələr
+          </h2>
+
+          <div className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 border border-orange-200 dark:border-orange-800 rounded-2xl p-8">
+            <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
+              Bütün praktiki nümunələr, Jupyter Notebook-lar və əlavə mənabələr aşağıdakı səhifədə mövcuddur:
+            </p>
+            <Link
+              href="/pyweek/az/resources"
+              className="inline-block px-6 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition"
+            >
+              🔗 Bütün Mənbələrə Keçid →
+            </Link>
+          </div>
+        </section>
+
         {/* Technology Stack */}
         <section>
           <h2 className="text-2xl font-bold text-black dark:text-white mb-8 border-b border-gray-200 dark:border-gray-800 pb-4">

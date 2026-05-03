@@ -102,6 +102,29 @@ export default function Day1En() {
               </ul>
             </section>
 
+            {/* Resources */}
+            <section className="bg-gradient-to-r from-orange-50 to-amber-50 dark:from-orange-900/20 dark:to-amber-900/20 border border-orange-200 dark:border-orange-800 rounded-3xl p-8 md:p-12">
+              <h2 className="text-3xl font-bold text-black dark:text-white mb-6">📥 Resources & Downloads</h2>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+                All practical examples and code are available in the Jupyter Notebook below:
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="/notebooks/Day1.ipynb"
+                  download
+                  className="px-6 py-3 bg-orange-600 text-white font-semibold rounded-lg hover:bg-orange-700 transition"
+                >
+                  ⬇️ Download Notebook (Day 1)
+                </a>
+                <Link
+                  href="/pyweek/en/resources"
+                  className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
+                >
+                  🔗 All Resources →
+                </Link>
+              </div>
+            </section>
+
             {/* Topics */}
             <section className="bg-gradient-to-r from-purple-50 to-pink-50 dark:from-purple-900/20 dark:to-pink-900/20 border border-purple-200 dark:border-purple-800 rounded-3xl p-8 md:p-12">
               <h2 className="text-3xl font-bold text-black dark:text-white mb-6">Topics Covered</h2>
