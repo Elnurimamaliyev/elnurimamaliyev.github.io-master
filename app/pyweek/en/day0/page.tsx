@@ -87,6 +87,20 @@ export default function Day0En() {
                   <span><strong>Activate virtual environment:</strong> <code className="text-sm bg-gray-900 text-green-400 px-2 py-1 rounded">source pyweek_env/bin/activate</code> (macOS/Linux) or <code className="text-sm bg-gray-900 text-green-400 px-2 py-1 rounded">pyweek_env\Scripts\activate</code> (Windows)</span>
                 </li>
               </ul>
+
+              <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-6 my-6">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-3">
+                  <strong>💡 Alternative:</strong> If you can't install Python or VS Code locally, you can use Google Colab:
+                </p>
+                <a
+                  href="https://colab.research.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition"
+                >
+                  Go to Google Colab →
+                </a>
+              </div>
             </section>
 
             {/* Second Half */}

@@ -61,7 +61,7 @@ export default function Day0Az() {
                 rel="noopener noreferrer"
                 className="inline-block mt-4 px-6 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition"
               >
-                🎥 Python & VS Code-un Quraşdırması | Addım-addım Video Təlimat →
+                Python & VS Code-un Quraşdırması | Addım-addım Video Təlimat →
               </a>
             </section>
 
@@ -99,6 +99,20 @@ export default function Day0Az() {
                   </div>
                 </li>
               </ul>
+
+              <div className="bg-blue-50 dark:bg-blue-900/20 border border-blue-200 dark:border-blue-800 rounded-lg p-6 my-6">
+                <p className="text-lg text-gray-700 dark:text-gray-300 mb-3">
+                  <strong>💡 Alternativ:</strong> Əgər VS Code-u yükləyə bilməsəniz, Google Colab istifadə edə bilərsiniz:
+                </p>
+                <a
+                  href="https://colab.research.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-4 py-2 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition"
+                >
+                  Google Colab-a keçid →
+                </a>
+              </div>
 
               <h3 className="text-2xl font-semibold text-gray-800 dark:text-gray-200 mb-6 mt-8">Layihəyə başlayın</h3>
               <ul className="space-y-4 text-lg text-gray-700 dark:text-gray-300">
