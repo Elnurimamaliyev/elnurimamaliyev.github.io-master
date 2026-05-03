@@ -49,9 +49,20 @@ export default function Day0Az() {
             {/* Overview */}
             <section className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border border-green-200 dark:border-green-800 rounded-3xl p-8 md:p-12">
               <h2 className="text-3xl font-bold text-black dark:text-white mb-6">Ümumi Baxış</h2>
-              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed mb-4">
                 Workshopdan əvvəl komputerinizi tapşırıqlar üçün hazırlayın: Python-u, lazımi kitabxanaları və kod redaktorunuzu (VS code) quraşdırın.
               </p>
+              <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+                Əgər çətinlik çəksəiniz aşağıdakı videonu izləyin:
+              </p>
+              <a
+                href="https://www.youtube.com/watch?v=1_c1JsRfaFs"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mt-4 px-6 py-3 bg-red-600 text-white font-semibold rounded-lg hover:bg-red-700 transition"
+              >
+                🎥 Python & VS Code-un Quraşdırması | Addım-addım Video Təlimat →
+              </a>
             </section>
 
             {/* First Half */}
