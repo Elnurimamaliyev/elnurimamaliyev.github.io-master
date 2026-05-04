@@ -125,6 +125,32 @@ export default function Day1Az() {
               </div>
             </section>
 
+            {/* Slides */}
+            <section className="bg-gradient-to-r from-indigo-50 to-purple-50 dark:from-indigo-900/20 dark:to-purple-900/20 border border-indigo-200 dark:border-indigo-800 rounded-3xl p-8 md:p-12">
+              <h2 className="text-3xl font-bold text-black dark:text-white mb-6">🎬 Slaydlar</h2>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+                Gün 1 prezentasiyasının slaydlarını aşağıda görüntüləyin və ya yükləyin:
+              </p>
+              <div className="mb-6 rounded-lg overflow-hidden bg-gray-200 dark:bg-gray-800 border-2 border-indigo-300 dark:border-indigo-700" style={{ height: "600px" }}>
+                <iframe
+                  src="/slides/PyWeek_AZ_Gun_1.pdf#toolbar=1&navpanes=0&scrollbar=1"
+                  width="100%"
+                  height="100%"
+                  style={{ border: "none" }}
+                  title="PyWeek Gün 1 Slaydları"
+                />
+              </div>
+              <div className="flex flex-wrap gap-4">
+                <a
+                  href="/slides/PyWeek_AZ_Gun_1.pdf"
+                  download
+                  className="px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition"
+                >
+                  ⬇️ Slaydları Yüklə (PDF)
+                </a>
+              </div>
+            </section>
+
             {/* Homework */}
             <section className="bg-gradient-to-r from-red-50 to-rose-50 dark:from-red-900/20 dark:to-rose-900/20 border border-red-200 dark:border-red-800 rounded-3xl p-8 md:p-12">
               <h2 className="text-3xl font-bold text-black dark:text-white mb-6">📝 Ev Tapşırığı</h2>
