@@ -151,6 +151,32 @@ export default function Day1En() {
               </div>
             </section>
 
+            {/* Recordings */}
+            <section className="bg-gradient-to-r from-pink-50 to-fuchsia-50 dark:from-pink-900/20 dark:to-fuchsia-900/20 border border-pink-200 dark:border-pink-800 rounded-3xl p-8 md:p-12">
+              <h2 className="text-3xl font-bold text-black dark:text-white mb-6">🎥 Recordings</h2>
+              <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+                Access the video recording and files from Day 1:
+              </p>
+              <div className="flex flex-col gap-4">
+                <a
+                  href="https://drive.google.com/file/d/1D68-uOT4V-wu93dq0PCIzkBqXhiqDu5F/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-pink-600 text-white font-semibold rounded-lg hover:bg-pink-700 transition inline-flex items-center gap-2 w-fit"
+                >
+                  ▶️ Watch Video Recording
+                </a>
+                <a
+                  href="https://drive.google.com/drive/folders/1LkqAQGBx6-KKnBgPu7zZNaNBuaWZjPQf?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 bg-fuchsia-600 text-white font-semibold rounded-lg hover:bg-fuchsia-700 transition inline-flex items-center gap-2 w-fit"
+                >
+                  📁 Access File Collection
+                </a>
+              </div>
+            </section>
+
             {/* Homework */}
             <section className="bg-gradient-to-r from-red-50 to-rose-50 dark:from-red-900/20 dark:to-rose-900/20 border border-red-200 dark:border-red-800 rounded-3xl p-8 md:p-12">
               <h2 className="text-3xl font-bold text-black dark:text-white mb-6">📝 Homework</h2>
