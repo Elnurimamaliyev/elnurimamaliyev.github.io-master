@@ -80,6 +80,53 @@ export default function ResourcesEn() {
 
           {/* Content */}
           <div className="space-y-12">
+            {/* Videos Section */}
+            <section className="bg-gradient-to-r from-pink-50 to-fuchsia-50 dark:from-pink-900/20 dark:to-fuchsia-900/20 border border-pink-200 dark:border-pink-800 rounded-3xl p-8 md:p-12">
+              <h2 className="text-3xl font-bold text-black dark:text-white mb-8">🎥 Video Recordings</h2>
+              <div className="grid gap-4">
+                <a
+                  href="https://drive.google.com/drive/folders/1LkqAQGBx6-KKnBgPu7zZNaNBuaWZjPQf?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-6 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-pink-400 dark:hover:border-pink-600 hover:shadow-lg transition"
+                >
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="text-lg font-semibold text-black dark:text-white group-hover:text-pink-600 dark:group-hover:text-pink-400 transition mb-2">
+                        ▶️ Day 1 Recording
+                      </h3>
+                      <p className="text-gray-700 dark:text-gray-300">
+                        Python Basics & Scientific Programming Intro
+                      </p>
+                    </div>
+                    <span className="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      Video →
+                    </span>
+                  </div>
+                </a>
+                <a
+                  href="https://drive.google.com/file/d/1d7OoHfpc2j7F5C7hZy-pVQ17vDromxb2/view?usp=sharing"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group p-6 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-800 hover:border-pink-400 dark:hover:border-pink-600 hover:shadow-lg transition"
+                >
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <h3 className="text-lg font-semibold text-black dark:text-white group-hover:text-pink-600 dark:group-hover:text-pink-400 transition mb-2">
+                        ▶️ Day 2 Recording
+                      </h3>
+                      <p className="text-gray-700 dark:text-gray-300">
+                        Assignment Analysis & AI-Powered Prototyping
+                      </p>
+                    </div>
+                    <span className="text-sm text-gray-500 dark:text-gray-400 whitespace-nowrap ml-4">
+                      Video →
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </section>
+
             {/* Notebooks Section */}
             <section className="bg-gradient-to-r from-blue-50 to-cyan-50 dark:from-blue-900/20 dark:to-cyan-900/20 border border-blue-200 dark:border-blue-800 rounded-3xl p-8 md:p-12">
               <h2 className="text-3xl font-bold text-black dark:text-white mb-8">📓 Jupyter Notebooks</h2>
@@ -124,8 +171,7 @@ export default function ResourcesEn() {
                 ))}
               </div>
             </section>
-
-            {/* Materials Section */}
+                        {/* Materials Section */}
             <section className="bg-gradient-to-r from-green-50 to-emerald-50 dark:from-green-900/20 dark:to-emerald-900/20 border border-green-200 dark:border-green-800 rounded-3xl p-8 md:p-12">
               <h2 className="text-3xl font-bold text-black dark:text-white mb-8">🔗 Additional Resources & Links</h2>
               <div className="grid gap-4">
