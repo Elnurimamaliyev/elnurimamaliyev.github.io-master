@@ -14,7 +14,7 @@ export default function Projects() {
       tags: ["Multimodal AI", "World Models", "JEPA", "Sign Language", "ÖGS", "Motion Capture", "EMG", "LLMs", "NLP", "Computational Linguistics"],
       category: "Academic",
       status: "Upcoming",
-      date: "Apr. 2026 – Present",
+      date: "Upcoming",
       link: "/projects/sign-language-ai",
       image: "/images/mo_cap.png"
     },

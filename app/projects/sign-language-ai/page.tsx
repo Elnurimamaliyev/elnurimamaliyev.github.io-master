@@ -59,12 +59,12 @@ export default function SignLanguageAI() {
           <div className="flex flex-col sm:flex-row sm:items-center gap-4 text-gray-500 text-sm mb-12">
             <p className="flex items-center gap-1.5">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
-              University of Salzburg
+              
             </p>
             <span className="hidden sm:block">•</span>
             <p className="flex items-center gap-1.5">
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
-              April 2026 – Present
+              Upcoming
             </p>
           </div>
         </div>
@@ -113,8 +113,7 @@ export default function SignLanguageAI() {
           </div>
 
           <p className="text-sm text-gray-500 mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
-            Part of the <strong>MoCap_Sign</strong> and <strong>ADHD-Multi</strong> funded projects, Department of Linguistics & CCNS, University of Salzburg.<br/>
-            Supervised by Prof. Dietmar Roehm.
+            
           </p>
 
           <div className="flex flex-wrap gap-2 mt-8">
